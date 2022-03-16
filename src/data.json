@@ -1,0 +1,28 @@
+{
+  "challenges": [
+    {
+      "id": 1,
+      "name": "Advice generator app",
+      "description": "This challenge using Advice Slip API to generate random quotes.",
+      "technology": ["html", "css", "javascript", "reactjs", "api"]
+    },
+    {
+      "id": 1,
+      "name": "Advice generator app",
+      "description": "This challenge using Advice Slip API to generate random quotes.",
+      "technology": ["html", "css", "javascript", "reactjs", "api"]
+    },
+    {
+      "id": 1,
+      "name": "Advice generator app",
+      "description": "This challenge using Advice Slip API to generate random quotes.",
+      "technology": ["html", "css", "javascript", "reactjs", "api"]
+    },
+    {
+      "id": 1,
+      "name": "Advice generator app",
+      "description": "This challenge using Advice Slip API to generate random quotes.",
+      "technology": ["html", "css", "javascript", "reactjs", "api"]
+    }
+  ]
+}

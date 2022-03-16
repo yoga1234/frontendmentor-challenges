@@ -1,0 +1,6 @@
+.mainapp-container h1 {
+  font-family: var(--font-poppins);
+  font-size: 42px;
+  text-align: center;
+  color: var(--text-color-main);
+}
