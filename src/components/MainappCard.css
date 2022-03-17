@@ -1,0 +1,47 @@
+.mainapp-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+}
+.mainapp-card-left {
+  font-size: 47px;
+  font-family: var(--font-poppins);
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+.mainapp-card-right h3 {
+  font-size: 24px;
+  font-family: var(--font-poppins);
+  color: var(--text-color-main);
+}
+.mainapp-card-right p {
+  font-size: 13px;
+  font-family: var(--font-fairdisplay);
+  font-weight: 600;
+  color: var(--text-color-sub);
+}
+.mainapp-card-right button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--text-color-sub);
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+}
+.mainapp-card-right button:hover {
+  transform: scale(0.95);
+}
+.mainapp-card-right button:active {
+  background-color: grey;
+}

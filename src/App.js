@@ -1,5 +1,6 @@
 import React from "react";
 
+import MainappCard from "./components/MainappCard";
 import "./App.css";
 
 function App() {
@@ -7,9 +8,10 @@ function App() {
     <div className="mainapp-container">
       <h1>List of Challenges</h1>
       <div className="mainapp-list">
-        <p>Challenge will goes here</p>
-        <p>Challenge will goes here</p>
-        <p>Challenge will goes here</p>
+        <MainappCard />
+        <MainappCard />
+        <MainappCard />
+        <MainappCard />
       </div>
     </div>
   );
