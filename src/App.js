@@ -1,5 +1,6 @@
 import React from "react";
 
+import data from "./data.json";
 import MainappCard from "./components/MainappCard";
 import "./App.css";
 
@@ -8,10 +9,9 @@ function App() {
     <div className="mainapp-container">
       <h1>List of Challenges</h1>
       <div className="mainapp-list">
-        <MainappCard />
-        <MainappCard />
-        <MainappCard />
-        <MainappCard />
+        {data.challenges.map((challenge) => (
+          <MainappCard key={challenge.id} challenge={challenge} />
+        ))}
       </div>
     </div>
   );

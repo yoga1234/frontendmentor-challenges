@@ -7,19 +7,25 @@
       "technology": ["html", "css", "javascript", "reactjs", "api"]
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Advice generator app",
       "description": "This challenge using Advice Slip API to generate random quotes.",
       "technology": ["html", "css", "javascript", "reactjs", "api"]
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Advice generator app",
       "description": "This challenge using Advice Slip API to generate random quotes.",
       "technology": ["html", "css", "javascript", "reactjs", "api"]
     },
     {
-      "id": 1,
+      "id": 4,
+      "name": "Advice generator app",
+      "description": "This challenge using Advice Slip API to generate random quotes.",
+      "technology": ["html", "css", "javascript", "reactjs", "api"]
+    },
+    {
+      "id": 5,
       "name": "Advice generator app",
       "description": "This challenge using Advice Slip API to generate random quotes.",
       "technology": ["html", "css", "javascript", "reactjs", "api"]
