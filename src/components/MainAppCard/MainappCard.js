@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./MainappCard.css";
 
@@ -9,7 +10,9 @@ function MainappCard(props) {
       <div className="mainapp-card-right">
         <h3>{props.challenge.name}</h3>
         <p>{props.challenge.description}</p>
-        <button>Open Challenge</button>
+        <Link to="/advice-generator">
+          <button>Open Challenge</button>
+        </Link>
       </div>
     </div>
   );

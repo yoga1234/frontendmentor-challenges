@@ -1,19 +1,24 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  NavLink,
+} from "react-router-dom";
+import { AdviceGenerator, ChallengeList } from "./pages";
 
-import data from "./data.json";
-import MainappCard from "./components/MainappCard";
 import "./App.css";
 
 function App() {
   return (
-    <div className="mainapp-container">
-      <h1>List of Challenges</h1>
-      <div className="mainapp-list">
-        {data.challenges.map((challenge) => (
-          <MainappCard key={challenge.id} challenge={challenge} />
-        ))}
-      </div>
-    </div>
+    <Router>
+      <div className="mainapp-container"></div>
+
+      <Routes>
+        <Route path="/" element={<ChallengeList />} />
+        <Route path="/advice-generator" element={<AdviceGenerator />} />1
+      </Routes>
+    </Router>
   );
 }
 
