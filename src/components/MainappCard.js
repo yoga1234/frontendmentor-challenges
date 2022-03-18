@@ -8,7 +8,7 @@ function MainappCard(props) {
       <div className="mainapp-card-left">1</div>
       <div className="mainapp-card-right">
         <h3>{props.challenge.name}</h3>
-        <p>The challenge description will goes here.</p>
+        <p>{props.challenge.description}</p>
         <button>Open Challenge</button>
       </div>
     </div>
