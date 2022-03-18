@@ -1,0 +1,22 @@
+.advice-container {
+  border: 1px solid #000;
+  border-radius: 15px;
+  width: 600px;
+  margin: 75px auto 0 auto;
+}
+.advice-container h3 {
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+}
+.advice-container p {
+  font-family: var(--font-poppins);
+  font-size: 32px;
+  text-align: center;
+  width: 86%;
+  margin: 30px auto 0 auto;
+  font-weight: 600;
+}
