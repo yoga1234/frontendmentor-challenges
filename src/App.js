@@ -7,8 +7,6 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div className="mainapp-container"></div>
-
       <Routes>
         <Route path="/" element={<ChallengeList />} />
         <Route path="/advice-generator" element={<AdviceGenerator />} />1

@@ -9,18 +9,22 @@ import {
 
 function AdviceGenerator() {
   return (
-    <div className="advice-container">
-      <h3>Advice #117</h3>
-      <p>
-        "It is easy to sit up and take notice, what's difficult is getting up
-        and taking action"
-      </p>
-      <picture>
-        <source media="(min-width: 768px)" srcSet={patternDividerDesktop} />
-        <source media="(max-width: 767px)" srcSet={patternDividerMobile} />
-        <img src={patternDividerDesktop} alt="Pattern Divider" />
-      </picture>
-      <img src={iconDice} alt="Dice" />
+    <div className="advice-background">
+      <div className="advice-container">
+        <h3>Advice #117</h3>
+        <p>
+          "It is easy to sit up and take notice, what's difficult is getting up
+          and taking action"
+        </p>
+        <picture>
+          <source media="(min-width: 768px)" srcSet={patternDividerDesktop} />
+          <source media="(max-width: 767px)" srcSet={patternDividerMobile} />
+          <img src={patternDividerDesktop} alt="Pattern Divider" />
+        </picture>
+        <div className="dice-container">
+          <img className="dice" src={iconDice} alt="Dice" />
+        </div>
+      </div>
     </div>
   );
 }
