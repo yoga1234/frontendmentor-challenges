@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import "./AdviceGenerator.css";
 import {
@@ -8,20 +8,32 @@ import {
 } from "./images";
 
 function AdviceGenerator() {
+  const API_URL = "https://api.adviceslip.com/advice";
+  const [advice, setAdvice] = useState(0);
+
+  const fetchData = async () => {
+    setAdvice(0);
+    const res = await fetch(API_URL);
+    const data = await res.json();
+    return setAdvice(data);
+  };
+
+  useEffect(() => {
+    fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <div className="advice-background">
       <div className="advice-container">
-        <h3>Advice #117</h3>
-        <p>
-          "It is easy to sit up and take notice, what's difficult is getting up
-          and taking action"
-        </p>
+        <h3>Advice {advice === 0 ? "(Loading...)" : advice.slip.id}</h3>
+        <p>{advice === 0 ? "(Loading...)" : advice.slip.advice}</p>
         <picture>
           <source media="(min-width: 768px)" srcSet={patternDividerDesktop} />
           <source media="(max-width: 767px)" srcSet={patternDividerMobile} />
           <img src={patternDividerDesktop} alt="Pattern Divider" />
         </picture>
-        <div className="dice-container">
+        <div className="dice-container" onClick={fetchData}>
           <img className="dice" src={iconDice} alt="Dice" />
         </div>
       </div>
