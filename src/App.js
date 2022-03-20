@@ -9,7 +9,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/frontendmentor-challenges" element={<ChallengeList />} />
-        <Route path="/advice-generator" element={<AdviceGenerator />} />
+        <Route
+          path="/frontendmentor-challenges/advice-generator"
+          element={<AdviceGenerator />}
+        />
       </Routes>
     </Router>
   );

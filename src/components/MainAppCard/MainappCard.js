@@ -10,7 +10,7 @@ function MainappCard(props) {
       <div className="mainapp-card-right">
         <h3>{props.challenge.name}</h3>
         <p>{props.challenge.description}</p>
-        <Link to="/advice-generator">
+        <Link to="/frontendmentor-challenges/advice-generator">
           <button>Open Challenge</button>
         </Link>
       </div>
