@@ -11,11 +11,13 @@ function AdviceGenerator() {
   const API_URL = "https://api.adviceslip.com/advice";
   const [advice, setAdvice] = useState(0);
 
-  const fetchData = async () => {
+  const fetchData = () => {
     setAdvice(0);
-    const res = await fetch(API_URL);
-    const data = await res.json();
-    return setAdvice(data);
+    setTimeout(async () => {
+      const res = await fetch(API_URL);
+      const data = await res.json();
+      return setAdvice(data);
+    }, 750);
   };
 
   useEffect(() => {
@@ -33,7 +35,14 @@ function AdviceGenerator() {
           <source media="(max-width: 767px)" srcSet={patternDividerMobile} />
           <img src={patternDividerDesktop} alt="Pattern Divider" />
         </picture>
-        <div className="dice-container" onClick={fetchData}>
+        <div
+          className={
+            advice === 0 || null || undefined
+              ? "dice-container disabled"
+              : "dice-container"
+          }
+          onClick={advice === 0 ? () => {} : fetchData}
+        >
           <img className="dice" src={iconDice} alt="Dice" />
         </div>
       </div>

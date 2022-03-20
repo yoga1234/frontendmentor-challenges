@@ -59,6 +59,10 @@
   -moz-box-shadow: 0px 0px 16px 5px rgba(82, 255, 171, 1);
   box-shadow: 0px 0px 16px 5px rgba(82, 255, 171, 1);
 }
+.advice-container .dice-container.disabled:hover {
+  cursor: not-allowed;
+  background-color: grey;
+}
 
 @media screen and (min-width: 768px) {
   .advice-container picture {
