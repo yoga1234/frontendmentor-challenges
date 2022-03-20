@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<ChallengeList />} />
-        <Route path="/advice-generator" element={<AdviceGenerator />} />1
+        <Route path="/advice-generator" element={<AdviceGenerator />} />
       </Routes>
     </Router>
   );
