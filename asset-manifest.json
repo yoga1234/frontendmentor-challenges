@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/frontendmentor-challenges/static/css/main.5d13c332.css",
-    "main.js": "/frontendmentor-challenges/static/js/main.b5a1cee1.js",
+    "main.css": "/frontendmentor-challenges/static/css/main.cf26dcd6.css",
+    "main.js": "/frontendmentor-challenges/static/js/main.24adad0a.js",
     "index.html": "/frontendmentor-challenges/index.html",
     "static/media/icon-dice.svg": "/frontendmentor-challenges/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
     "static/media/pattern-divider-desktop.svg": "/frontendmentor-challenges/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
     "static/media/pattern-divider-mobile.svg": "/frontendmentor-challenges/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
-    "main.5d13c332.css.map": "/frontendmentor-challenges/static/css/main.5d13c332.css.map",
-    "main.b5a1cee1.js.map": "/frontendmentor-challenges/static/js/main.b5a1cee1.js.map"
+    "main.cf26dcd6.css.map": "/frontendmentor-challenges/static/css/main.cf26dcd6.css.map",
+    "main.24adad0a.js.map": "/frontendmentor-challenges/static/js/main.24adad0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d13c332.css",
-    "static/js/main.b5a1cee1.js"
+    "static/css/main.cf26dcd6.css",
+    "static/js/main.24adad0a.js"
   ]
 }
