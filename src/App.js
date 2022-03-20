@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<ChallengeList />} />
+        <Route path="/frontendmentor-challenges" element={<ChallengeList />} />
         <Route path="/advice-generator" element={<AdviceGenerator />} />
       </Routes>
     </Router>
