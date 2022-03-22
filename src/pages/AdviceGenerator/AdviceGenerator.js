@@ -14,11 +14,11 @@ function AdviceGenerator() {
 
   const fetchData = () => {
     setAdvice(0);
-    // setTimeout(async () => {
-    //   const res = await fetch(API_URL);
-    //   const data = await res.json();
-    //   return setAdvice(data);
-    // }, 750);
+    setTimeout(async () => {
+      const res = await fetch(API_URL);
+      const data = await res.json();
+      return setAdvice(data);
+    }, 750);
   };
 
   useEffect(() => {
