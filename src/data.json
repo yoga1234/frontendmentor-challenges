@@ -5,6 +5,12 @@
       "name": "Advice generator app",
       "description": "This challenge using Advice Slip API to generate random quotes.",
       "url": "advice-generator"
+    },
+    {
+      "id": 2,
+      "name": "Sunnyside Landing Page",
+      "description": "Building landing page for Sunniside ageny with responsive layout.",
+      "url": "sunnyside-agency"
     }
   ]
 }
