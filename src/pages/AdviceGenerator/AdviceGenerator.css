@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: #1f2531;
   padding-top: 150px;
+  overflow: hidden;
 }
 .advice-container {
   border-radius: 15px;

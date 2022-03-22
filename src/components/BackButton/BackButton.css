@@ -1,0 +1,24 @@
+.backbtn-container {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+}
+.backbtn-container button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-family: var(--font-poppins);
+  font-weight: bold;
+  background-color: #19cb94;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0.3;
+}
+.backbtn-container button:hover {
+  opacity: 0.8;
+}
+.backbtn-container button:active {
+  opacity: 1;
+}
