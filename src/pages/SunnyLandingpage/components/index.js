@@ -1,3 +1,4 @@
 import Navbar from "./Navbar/Navbar";
+import HeroImage from "./HeroImage/HeroImage";
 
-export { Navbar };
+export { Navbar, HeroImage };

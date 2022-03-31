@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "./components";
+import { Navbar, HeroImage } from "./components";
 
 import "./SunnyLandingpage.css";
 
@@ -7,6 +7,7 @@ function SunnyLandingpage() {
   return (
     <div>
       <Navbar />
+      <HeroImage />
     </div>
   );
 }
