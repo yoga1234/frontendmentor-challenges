@@ -1,7 +1,14 @@
 import React from "react";
+import { Navbar } from "./components";
+
+import "./SunnyLandingpage.css";
 
 function SunnyLandingpage() {
-  return <div>SunnyLandingpage</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default SunnyLandingpage;
