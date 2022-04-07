@@ -18,6 +18,8 @@ function BrandFeatures() {
         </div>
         <div className="brand-item-image"></div>
       </div>
+      <div className="brand-item-container container-yellow"></div>
+      <div className="brand-item-container container-pink"></div>
       <div className="brand-item-container">
         <div className="brand-item-text">
           <h3>Stand out to the right audience</h3>

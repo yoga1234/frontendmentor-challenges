@@ -3,9 +3,20 @@
   display: flex;
   flex-direction: row ;
   flex-wrap: wrap;
+  background-color: #fffbf8;
 }
 .brand-item-container {
   width: 50vw;
+}
+.brand-item-container.container-yellow {
+  background-color: var(--colorss-yellow);
+}
+.brand-item-container.container-pink {
+  background-color: var(--colorss-soft-red);
+}
+.brand-item-text {
+  width: max-content;
+  margin: 125px auto 125px auto;
 }
 .brand-item-container .brand-item-text h3,
 .brand-item-container .brand-item-mixed h3 {
@@ -17,6 +28,7 @@
 }
 .brand-item-container .brand-item-text p,
 .brand-item-container .brand-item-mixed p {
+  width: 395px;
   font-family: var(--font-barlow);
   line-height: 1.6;
   color: var(--colorss-dark-grayish-blue);
@@ -47,6 +59,10 @@ div.btn-bottom {
 div.btn-bottom.bottom-pink{
   border-color: var(--colorss-soft-red);
 }
+.brand-item-container .brand-item-mixed {
+  width: max-content;
+  margin: 50px auto 50px auto;
+}
 .brand-item-container .brand-item-mixed h3 {
   text-align: center;
   font-size: 24px;
@@ -55,4 +71,6 @@ div.btn-bottom.bottom-pink{
   text-align: center;
   font-size: 14px;
   font-weight: 400;
+  width: 300px;
+  margin: 20px auto 50px auto;
 }
