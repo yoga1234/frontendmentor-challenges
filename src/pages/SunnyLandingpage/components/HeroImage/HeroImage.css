@@ -2,4 +2,32 @@
   width: 100vw;
   height: calc(100vh - 80px);
   background-color: var(--bgcolorss-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.hero-text {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 900;
+  font-family: var(--font-fairdisplay);
+  letter-spacing: 7px;
+  margin-top: 75px;
+  z-index: 2;
+}
+.hero-arrow-down {
+  width: 40px;
+  position: relative;
+  top: 100px;
+  z-index: 2;
+}
+@media only screen and (min-width: 426px) {
+  picture.image-header img {
+    width: 100vw;
+    min-width: 1366px;
+    position: relative;
+    bottom: 350px;
+    z-index: 1;
+  }
 }
