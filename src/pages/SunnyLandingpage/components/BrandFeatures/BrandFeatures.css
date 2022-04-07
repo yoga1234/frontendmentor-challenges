@@ -1,0 +1,58 @@
+.brandfeature-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+}
+.brand-item-container {
+  width: 50vw;
+}
+.brand-item-container .brand-item-text h3,
+.brand-item-container .brand-item-mixed h3 {
+  font-size: 32px;
+  font-family: var(--font-fraunces);
+  font-weight: 900;
+  color: var(--colorss-very-dark-desaturated-blue);
+  width: 350px;
+}
+.brand-item-container .brand-item-text p,
+.brand-item-container .brand-item-mixed p {
+  font-family: var(--font-barlow);
+  line-height: 1.6;
+  color: var(--colorss-dark-grayish-blue);
+  font-weight: 600;
+  margin-top: 20px;
+}
+.brand-item-container .brand-item-text button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: var(--font-fraunces);
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-left: 10px;
+  z-index: 2;
+}
+div.btn-bottom {
+  width: 140px;
+  border-bottom: 10px solid var(--colorss-yellow);
+  border-radius: 10px;
+  position: relative;
+  opacity: 0.3;
+  bottom: 6px;
+  z-index: 1;
+}
+div.btn-bottom.bottom-pink{
+  border-color: var(--colorss-soft-red);
+}
+.brand-item-container .brand-item-mixed h3 {
+  text-align: center;
+  font-size: 24px;
+}
+.brand-item-container .brand-item-mixed p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
