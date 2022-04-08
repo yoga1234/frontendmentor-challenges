@@ -2,6 +2,17 @@ import React from "react";
 
 import "./BrandFeatures.css";
 
+import {
+  desktopEgg,
+  desktopGlass,
+  desktopOrange,
+  desktopCherry,
+  mobileEgg,
+  mobileGlass,
+  mobileOrange,
+  mobileCherry,
+} from "../../images";
+
 function BrandFeatures() {
   return (
     <div className="brandfeature-container">
@@ -18,8 +29,18 @@ function BrandFeatures() {
         </div>
         <div className="brand-item-image"></div>
       </div>
-      <div className="brand-item-container container-yellow"></div>
-      <div className="brand-item-container container-pink"></div>
+      <div className="brand-item-container container-yellow">
+        <picture>
+          <source media="(min-width: 426px)" srcset={desktopEgg} />
+          <source media="(min-width: 425px)" srcset={mobileEgg} />
+          <img src={desktopEgg} alt="egg with yellow background" />
+        </picture>
+      </div>
+      <div className="brand-item-container container-pink">
+        <source media="(min-width: 426px)" srcset={desktopGlass} />
+        <source media="(min-width: 425px)" srcset={mobileGlass} />
+        <img src={desktopGlass} alt="glass with pink background" />
+      </div>
       <div className="brand-item-container">
         <div className="brand-item-text">
           <h3>Stand out to the right audience</h3>
@@ -31,9 +52,15 @@ function BrandFeatures() {
           <button>LEARN MORE</button>
           <div className="btn-bottom bottom-pink"></div>
         </div>
-        <div className="brand-item-image"></div>
       </div>
       <div className="brand-item-container">
+        <div className="brand-item-image">
+          <picture>
+            <source media="(min-width: 426px)" srcset={desktopCherry} />
+            <source media="(min-width: 425px)" srcset={mobileCherry} />
+            <img src={desktopCherry} alt="cherry with greenish background" />
+          </picture>
+        </div>
         <div className="brand-item-mixed">
           <h3>Graphic Design</h3>
           <p>
@@ -44,6 +71,13 @@ function BrandFeatures() {
         </div>
       </div>
       <div className="brand-item-container">
+        <div className="brand-item-image">
+          <picture>
+            <source media="(min-width: 426px)" srcset={desktopOrange} />
+            <source media="(min-width: 425px)" srcset={mobileOrange} />
+            <img src={desktopOrange} alt="orange with blue background" />
+          </picture>
+        </div>
         <div className="brand-item-mixed">
           <h3>Photography</h3>
           <p>
