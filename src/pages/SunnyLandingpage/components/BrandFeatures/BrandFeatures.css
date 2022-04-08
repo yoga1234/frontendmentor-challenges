@@ -59,6 +59,10 @@ div.btn-bottom {
 div.btn-bottom.bottom-pink{
   border-color: var(--colorss-soft-red);
 }
+.brand-item-mixed {
+  position: relative;
+  bottom: 250px;
+}
 .brand-item-container .brand-item-mixed {
   width: max-content;
   margin: 50px auto 50px auto;
@@ -66,11 +70,27 @@ div.btn-bottom.bottom-pink{
 .brand-item-container .brand-item-mixed h3 {
   text-align: center;
   font-size: 24px;
+  color: var(--colorss--desaturated-cyan);
 }
 .brand-item-container .brand-item-mixed p {
   text-align: center;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   width: 300px;
   margin: 20px auto 50px auto;
+  color: var(--colorss--desaturated-cyan);
+}
+@media only screen and (min-width: 426px) {
+  picture.image-header img {
+    width: 100vw;
+    min-width: 1366px;
+    position: relative;
+    bottom: 350px;
+    z-index: 1;
+  }
+  .brand-item-container.container-yellow img,
+  .brand-item-container.container-pink img,
+  .brand-item-container .brand-item-image img {
+    width: 100%;
+  }
 }
