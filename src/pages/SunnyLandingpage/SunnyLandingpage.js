@@ -10,7 +10,7 @@ import "./SunnyLandingpage.css";
 
 function SunnyLandingpage() {
   return (
-    <div>
+    <div className="sunny-container">
       <Navbar />
       <HeroImage />
       <BrandFeatures />

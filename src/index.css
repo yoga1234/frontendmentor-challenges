@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&display=swap");
 
 :root {
   --font-poppins: "Poppins", sans-serif;
   --font-fairdisplay: "Playfair Display", serif;
   --text-color-main: #13293d;
   --text-color-sub: #2a628f;
+}
+#root {
+  width: 100%;
+  overflow: hidden;
 }
