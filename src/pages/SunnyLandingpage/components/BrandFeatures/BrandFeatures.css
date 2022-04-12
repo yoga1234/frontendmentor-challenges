@@ -59,9 +59,14 @@ div.btn-bottom {
 div.btn-bottom.bottom-pink {
   border-color: var(--colorss-soft-red);
 }
+.position-relative {
+  position: relative;
+}
 .brand-item-mixed {
-  /* position: relative;
-  bottom: 250px; */
+  position: absolute;
+  top: 325px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 .brand-item-container .brand-item-mixed {
   width: max-content;

@@ -53,7 +53,7 @@ function BrandFeatures() {
           <div className="btn-bottom bottom-pink"></div>
         </div>
       </div>
-      <div className="brand-item-container">
+      <div className="brand-item-container position-relative">
         <div className="brand-item-image">
           <picture>
             <source media="(min-width: 426px)" srcSet={desktopCherry} />
@@ -70,7 +70,7 @@ function BrandFeatures() {
           </p>
         </div>
       </div>
-      <div className="brand-item-container">
+      <div className="brand-item-container position-relative">
         <div className="brand-item-image">
           <picture>
             <source media="(min-width: 426px)" srcSet={desktopOrange} />
