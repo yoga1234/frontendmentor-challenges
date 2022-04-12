@@ -60,8 +60,8 @@ div.btn-bottom.bottom-pink {
   border-color: var(--colorss-soft-red);
 }
 .brand-item-mixed {
-  position: relative;
-  bottom: 250px;
+  /* position: relative;
+  bottom: 250px; */
 }
 .brand-item-container .brand-item-mixed {
   width: max-content;
@@ -93,5 +93,7 @@ div.btn-bottom.bottom-pink {
   .brand-item-container.container-pink img,
   .brand-item-container .brand-item-image img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
