@@ -14,8 +14,8 @@ function HeroImage() {
       <div className="hero-text">WE ARE CREATIVES</div>
       <img className="hero-arrow-down" src={iconArrowDown} alt="arrow down" />
       <picture className="image-header">
-        <source media="(min-width: 426px)" srcset={desktopImageHeader} />
-        <source media="(min-width: 425px)" srcset={mobileImageHeader} />
+        <source media="(min-width: 426px)" srcSet={desktopImageHeader} />
+        <source media="(min-width: 425px)" srcSet={mobileImageHeader} />
         <img src={desktopImageHeader} alt="Lemon blue background" />
       </picture>
     </div>

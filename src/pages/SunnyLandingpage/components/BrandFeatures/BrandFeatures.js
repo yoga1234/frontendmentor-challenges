@@ -31,14 +31,14 @@ function BrandFeatures() {
       </div>
       <div className="brand-item-container container-yellow">
         <picture>
-          <source media="(min-width: 426px)" srcset={desktopEgg} />
-          <source media="(min-width: 425px)" srcset={mobileEgg} />
+          <source media="(min-width: 426px)" srcSet={desktopEgg} />
+          <source media="(min-width: 425px)" srcSet={mobileEgg} />
           <img src={desktopEgg} alt="egg with yellow background" />
         </picture>
       </div>
       <div className="brand-item-container container-pink">
-        <source media="(min-width: 426px)" srcset={desktopGlass} />
-        <source media="(min-width: 425px)" srcset={mobileGlass} />
+        <source media="(min-width: 426px)" srcSet={desktopGlass} />
+        <source media="(min-width: 425px)" srcSet={mobileGlass} />
         <img src={desktopGlass} alt="glass with pink background" />
       </div>
       <div className="brand-item-container">
@@ -56,8 +56,8 @@ function BrandFeatures() {
       <div className="brand-item-container">
         <div className="brand-item-image">
           <picture>
-            <source media="(min-width: 426px)" srcset={desktopCherry} />
-            <source media="(min-width: 425px)" srcset={mobileCherry} />
+            <source media="(min-width: 426px)" srcSet={desktopCherry} />
+            <source media="(min-width: 425px)" srcSet={mobileCherry} />
             <img src={desktopCherry} alt="cherry with greenish background" />
           </picture>
         </div>
@@ -73,8 +73,8 @@ function BrandFeatures() {
       <div className="brand-item-container">
         <div className="brand-item-image">
           <picture>
-            <source media="(min-width: 426px)" srcset={desktopOrange} />
-            <source media="(min-width: 425px)" srcset={mobileOrange} />
+            <source media="(min-width: 426px)" srcSet={desktopOrange} />
+            <source media="(min-width: 425px)" srcSet={mobileOrange} />
             <img src={desktopOrange} alt="orange with blue background" />
           </picture>
         </div>
