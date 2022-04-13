@@ -10,6 +10,10 @@ import mobileGlass from "./mobile/image-stand-out.jpg";
 import mobileOrange from "./mobile/image-photography.jpg";
 import mobileCherry from "./mobile/image-graphic-design.jpg";
 
+import userOne from "./image-emily.jpg";
+import userTwo from "./image-jennie.jpg";
+import userThree from "./image-thomas.jpg";
+
 import iconArrowDown from "./icon-arrow-down.svg";
 
 export {
@@ -24,4 +28,7 @@ export {
   mobileOrange,
   mobileCherry,
   iconArrowDown,
+  userOne,
+  userTwo,
+  userThree,
 };

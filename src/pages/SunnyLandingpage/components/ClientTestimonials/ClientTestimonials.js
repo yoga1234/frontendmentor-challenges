@@ -2,13 +2,15 @@ import React from "react";
 
 import "./ClientTestimonials.css";
 
+import { userOne, userTwo, userThree } from "../../images";
+
 function ClientTestimonials() {
   return (
     <div className="client-testimonials">
       <h3>CLIENT TESTIMONIALS</h3>
       <div className="testimonial-container">
         <div className="testimonials-item">
-          <div className="img-goes-here"></div>
+          <img src={userOne} alt="user emily" />
           <p className="testimonial-description">
             We put our trust in Sunniside and they delivered, making sure our
             needs were met and deadlines were always hit.
@@ -17,7 +19,7 @@ function ClientTestimonials() {
           <p className="client-job">Marketing Director</p>
         </div>
         <div className="testimonials-item">
-          <div className="img-goes-here"></div>
+          <img src={userTwo} alt="user jennie" />
           <p className="testimonial-description">
             Sunnyside's enthusiasm coupled with their keen interest in our
             brand's success made it a satisfying and enjoyable experience.
@@ -26,7 +28,7 @@ function ClientTestimonials() {
           <p className="client-job">Chief Operating Officer</p>
         </div>
         <div className="testimonials-item">
-          <div className="img-goes-here"></div>
+          <img src={userThree} alt="user thomas" />
           <p className="testimonial-description">
             Incredible end result! Our sales increased over 400% when we worked
             with Sunnyside. Highly recommended!
