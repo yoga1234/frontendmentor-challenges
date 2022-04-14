@@ -23,6 +23,10 @@ import userTwo from "./image-jennie.jpg";
 import userThree from "./image-thomas.jpg";
 
 import iconArrowDown from "./icon-arrow-down.svg";
+import iconFacebook from "./icon-facebook.svg";
+import iconInstagram from "./icon-instagram.svg";
+import iconPinterest from "./icon-pinterest.svg";
+import iconTwitter from "./icon-twitter.svg";
 
 export {
   desktopImageHeader,
@@ -44,6 +48,10 @@ export {
   mobileOrangeBowl,
   mobileCubes,
   iconArrowDown,
+  iconFacebook,
+  iconInstagram,
+  iconPinterest,
+  iconTwitter,
   userOne,
   userTwo,
   userThree,

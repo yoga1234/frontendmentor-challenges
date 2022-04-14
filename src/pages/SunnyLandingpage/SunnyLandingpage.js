@@ -5,6 +5,7 @@ import {
   BrandFeatures,
   ClientTestimonials,
   ImageSection,
+  SunnyFooter,
 } from "./components";
 
 import "./SunnyLandingpage.css";
@@ -17,6 +18,7 @@ function SunnyLandingpage() {
       <BrandFeatures />
       <ClientTestimonials />
       <ImageSection />
+      <SunnyFooter />
     </div>
   );
 }
