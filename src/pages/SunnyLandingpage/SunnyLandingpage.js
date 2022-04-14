@@ -4,6 +4,7 @@ import {
   HeroImage,
   BrandFeatures,
   ClientTestimonials,
+  ImageSection,
 } from "./components";
 
 import "./SunnyLandingpage.css";
@@ -15,6 +16,7 @@ function SunnyLandingpage() {
       <HeroImage />
       <BrandFeatures />
       <ClientTestimonials />
+      <ImageSection />
     </div>
   );
 }
