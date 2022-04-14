@@ -1,0 +1,35 @@
+.sunnyfooter-container {
+  background-color: #90d4c5;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.sunnyfooter-container h3 {
+  font-size: 38px;
+  font-family: var(--font-barlow);
+  font-weight: 800;
+  color: var(--colorss-dark-moderated-cyan);
+  text-align: center;
+}
+.footer-menu {
+  margin-top: 40px;
+}
+.footer-menu ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  justify-content: center;
+}
+.footer-menu ul li {
+  list-style: none;
+  font-family: var(--font-barlow);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--colorss-dark-moderated-cyan);
+}
+.socmed-icons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}

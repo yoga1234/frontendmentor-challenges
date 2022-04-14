@@ -1,5 +1,6 @@
 .image-section-container {
   width: 100vw;
+  height: 424px;
   display: flex;
   flex-direction: row;
   overflow: hidden;
