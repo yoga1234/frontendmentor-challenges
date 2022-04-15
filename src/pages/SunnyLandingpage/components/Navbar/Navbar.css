@@ -36,3 +36,23 @@
   font-weight: bold;
   text-transform: ip;
 }
+@media only screen and (min-width: 426px) {
+  .navbar-container div ul {
+    display: flex;
+  }
+  .hamburger-icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .navbar-container {
+    padding-left: 20px;
+    padding-right: 25px;
+  }
+  .navbar-container div ul {
+    display: none;
+  }
+  .hamburger-icon {
+    margin-top: 10px;
+  }
+}

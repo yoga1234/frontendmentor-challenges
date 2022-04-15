@@ -27,6 +27,7 @@ import iconFacebook from "./icon-facebook.svg";
 import iconInstagram from "./icon-instagram.svg";
 import iconPinterest from "./icon-pinterest.svg";
 import iconTwitter from "./icon-twitter.svg";
+import iconHamburger from "./icon-hamburger.svg";
 
 export {
   desktopImageHeader,
@@ -52,6 +53,7 @@ export {
   iconInstagram,
   iconPinterest,
   iconTwitter,
+  iconHamburger,
   userOne,
   userTwo,
   userThree,
