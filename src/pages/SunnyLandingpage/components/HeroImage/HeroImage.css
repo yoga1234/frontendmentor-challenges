@@ -19,7 +19,7 @@
 .hero-arrow-down {
   width: 40px;
   position: relative;
-  top: 100px;
+  top: 50px;
   z-index: 2;
 }
 @media only screen and (min-width: 426px) {
@@ -29,5 +29,19 @@
     position: relative;
     bottom: 350px;
     z-index: 1;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .hero-text {
+    text-align: center;
+  }
+  .hero-container {
+    margin-bottom: -800px;
+  }
+  picture.image-header img {
+    width: 100%;
+    position: relative;
+    bottom: 150px;
+    object-fit: cover;
   }
 }
