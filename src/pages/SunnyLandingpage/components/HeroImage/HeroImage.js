@@ -15,7 +15,7 @@ function HeroImage() {
       <img className="hero-arrow-down" src={iconArrowDown} alt="arrow down" />
       <picture className="image-header">
         <source media="(min-width: 426px)" srcSet={desktopImageHeader} />
-        <source media="(min-width: 425px)" srcSet={mobileImageHeader} />
+        <source media="(max-width: 425px)" srcSet={mobileImageHeader} />
         <img src={desktopImageHeader} alt="Lemon blue background" />
       </picture>
     </div>
