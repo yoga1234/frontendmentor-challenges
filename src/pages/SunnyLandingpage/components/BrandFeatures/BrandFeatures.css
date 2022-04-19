@@ -122,7 +122,8 @@ div.btn-bottom.bottom-pink {
   .brand-item-container.container-yellow img,
   .brand-item-container.container-pink img,
   .brand-item-container .brand-item-image img {
-    width: 100vw;
+    width: 100%;
+    object-fit: cover;
     display: block;
   }
   .brand-item-mixed h3 {
@@ -146,8 +147,13 @@ div.btn-bottom.bottom-pink {
   }
   .brandfeature-container .brand-item-container:nth-child(5) {
     order: 5;
+    background-color: #99d9c9;
   }
   .brandfeature-container .brand-item-container:nth-child(6) {
     order: 6;
+    background-color: #63cdff;
+  }
+  .position-relative {
+    height: 750px;
   }
 }
