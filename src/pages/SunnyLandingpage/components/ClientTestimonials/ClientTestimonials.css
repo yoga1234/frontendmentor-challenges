@@ -50,3 +50,22 @@
   font-weight: bold;
   margin-top: 10px;
 }
+@media only screen and (max-width: 425px) {
+  .client-testimonials h3 {
+    font-size: 16px;
+  }
+  .testimonial-container {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .testimonials-item {
+    margin-top: 75px;
+  }
+  .testimonial-description {
+    width: 315px;
+    margin: 25px auto 0 auto;
+  }
+  .client-name {
+    margin-top: 25px;
+  }
+}
