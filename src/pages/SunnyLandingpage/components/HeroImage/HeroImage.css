@@ -1,6 +1,6 @@
 .hero-container {
   width: 100vw;
-  height: calc(100vh - 80px);
+  height: max-content;
   background-color: var(--bgcolorss-blue);
   display: flex;
   flex-direction: column;
@@ -28,6 +28,7 @@
     object-fit: cover;
     position: relative;
     bottom: 350px;
+    margin-bottom: -360px;
     z-index: 1;
   }
 }
@@ -36,7 +37,7 @@
     text-align: center;
   }
   .hero-container {
-    margin-bottom: -550px;
+    margin-bottom: -680px;
   }
   picture.image-header img {
     width: 750px;
