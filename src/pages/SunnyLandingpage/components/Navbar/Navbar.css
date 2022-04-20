@@ -22,7 +22,7 @@
   list-style: none;
   font-family: var(--font-barlow);
   font-size: var(--font-size-18);
-  margin-left: 50px;
+  margin-left: 25px;
   padding: 10px;
   cursor: pointer;
   z-index: 2;
@@ -36,15 +36,16 @@
   font-weight: bold;
   text-transform: ip;
 }
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 768px) {
   .navbar-container div ul {
     display: flex;
+    margin-top: 7px;
   }
   .hamburger-icon {
     display: none;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 765px) {
   .navbar-container {
     padding-left: 20px;
     padding-right: 25px;
