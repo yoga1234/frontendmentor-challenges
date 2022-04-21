@@ -5,24 +5,27 @@
   flex-direction: row;
   overflow: hidden;
 }
-@media only screen and (min-width: 426px) {
-  .image-section-container picture {
-    width: 25%;
-  }
-  .image-section-container picture img {
-    width: 100%;
-    object-fit: cover;
-  }
+.image-section-container picture img {
+  object-fit: cover;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1365px) {
   .image-section-container {
     width: 100vw;
     overflow: visible;
     height: max-content;
     flex-wrap: wrap;
   }
-  .image-section-container img {
+  .image-section-container picture img {
     width: 50vw;
     display: block;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .image-section-container picture {
+    flex-grow: 1;
+  }
+  .image-section-container picture img {
+    width: 100%;
+    object-fit: cover;
   }
 }
