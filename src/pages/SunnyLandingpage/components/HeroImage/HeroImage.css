@@ -1,4 +1,7 @@
 .hero-container {
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
   width: 100vw;
   height: max-content;
   background-color: var(--bgcolorss-blue);
@@ -21,6 +24,11 @@
   position: relative;
   top: 50px;
   z-index: 2;
+}
+@media screen and (min-width: 426px) and (max-width: 526px) {
+  .hero-text {
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 426px) {
   picture.image-header img {

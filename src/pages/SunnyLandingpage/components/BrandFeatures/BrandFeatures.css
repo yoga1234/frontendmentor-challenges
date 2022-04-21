@@ -1,4 +1,7 @@
 .brandfeature-container {
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -7,6 +10,7 @@
 }
 .brand-item-container {
   width: 50vw;
+  max-width: 750px;
 }
 .brand-item-container.container-yellow {
   background-color: var(--colorss-yellow);

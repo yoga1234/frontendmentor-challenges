@@ -1,4 +1,7 @@
 .image-section-container {
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
   width: 100vw;
   height: 424px;
   display: flex;
