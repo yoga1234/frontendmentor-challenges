@@ -91,7 +91,7 @@ div.btn-bottom.bottom-pink {
 .brand-item-container:nth-child(6) {
   background-color: #63cdff;
 }
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .brand-item-container .brand-item-text h3 {
     margin-right: auto;
     margin-left: auto;
