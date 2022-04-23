@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontendmentor-challenges/static/css/main.e535e4c7.css",
-    "main.js": "/frontendmentor-challenges/static/js/main.17a39738.js",
+    "main.css": "/frontendmentor-challenges/static/css/main.3c3951ea.css",
+    "main.js": "/frontendmentor-challenges/static/js/main.9bc3ec73.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/frontendmentor-challenges/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/frontendmentor-challenges/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/frontendmentor-challenges/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -25,11 +25,11 @@
     "static/media/pattern-divider-mobile.svg": "/frontendmentor-challenges/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
     "static/media/icon-arrow-down.svg": "/frontendmentor-challenges/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
     "static/media/icon-hamburger.svg": "/frontendmentor-challenges/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
-    "main.e535e4c7.css.map": "/frontendmentor-challenges/static/css/main.e535e4c7.css.map",
-    "main.17a39738.js.map": "/frontendmentor-challenges/static/js/main.17a39738.js.map"
+    "main.3c3951ea.css.map": "/frontendmentor-challenges/static/css/main.3c3951ea.css.map",
+    "main.9bc3ec73.js.map": "/frontendmentor-challenges/static/js/main.9bc3ec73.js.map"
   },
   "entrypoints": [
-    "static/css/main.e535e4c7.css",
-    "static/js/main.17a39738.js"
+    "static/css/main.3c3951ea.css",
+    "static/js/main.9bc3ec73.js"
   ]
 }
